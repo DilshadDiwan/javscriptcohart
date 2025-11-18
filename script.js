@@ -61,11 +61,17 @@
 
 //Q-6
 
-function print(){
-      let name = "hello"
-      function printName(){
-        console.log(name)
-      }
-      printName();
-}
-print();
+// function print(){
+//       let name = "hello"
+//       function printName(){
+//         console.log(name)
+//       }
+//       printName();
+// }
+// print();
+
+//Q-7
+
+    let arr = ["apple","banana","mango","grapes"];
+    arr.push("kela");
+    arr.unshift("orange");
