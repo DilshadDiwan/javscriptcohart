@@ -20,11 +20,25 @@
 
 //Q-4
 
-function addunlimited(...val){
+// function addunlimited(...val){
+//     let sum = 0;
+//  val.forEach(function(val){
+//     sum = sum+val;
+// });
+//   console.log(sum)
+// }
+// addunlimited(5,6,11,20)
+
+
+//Q-4
+
+function add(...val){
     let sum = 0;
- val.forEach(function(val){
-    sum = sum+val;
-});
-  console.log(sum)
+     for(let i = 0; i<val.length; i++){
+        sum = sum + val[i];
+       
+    }
+    console.log(sum)
 }
-addunlimited(5,6,11,20)
+add(5,6,9);
+
