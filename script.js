@@ -32,13 +32,23 @@
 
 //Q-4
 
-function add(...val){
-    let sum = 0;
-     for(let i = 0; i<val.length; i++){
-        sum = sum + val[i];
+// function add(...val){
+//     let sum = 0;
+//      for(let i = 0; i<val.length; i++){
+//         sum = sum + val[i];
        
-    }
-    console.log(sum)
+//     }
+//     console.log(sum)
+// }
+// add(5,6,9);
+
+//Q-4 again
+
+function add(...val){
+     let ans = val.reduce(function(acc,val){
+        return acc+val;
+    } ,0);
+    console.log(ans)
 }
-add(5,6,9);
+add(5,6)
 
