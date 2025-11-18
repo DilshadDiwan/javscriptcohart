@@ -85,11 +85,18 @@
 
 //Q-9
 
- let obj ={
-    name : "diwan",
-    age : 21,
-    city : "katihar"
-}
-for( let key in obj){
-    console.log(key)
-}
+//  let obj ={
+//     name : "diwan",
+//     age : 21,
+//     city : "katihar"
+// }
+// for( let key in obj){
+//     console.log(key)
+// }
+
+//Q-10
+
+// setTimeout(function(){
+//     console.log("times up")
+// },5000)
+
