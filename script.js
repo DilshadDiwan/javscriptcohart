@@ -112,8 +112,17 @@
 //Q-12
  
  
-function diwan({name,age}){
-    console.log(name,age);
+// function diwan({name,age}){
+//     console.log(name,age);
 
-}
-diwan({name : "dilshad", age:27})
+// }
+// diwan({name : "dilshad", age:27})
+
+//Q-13
+
+
+let arr = [5,6,8,3,11]
+ let newarr = arr.map(function(val){
+    return val*val
+ });
+ console.log(newarr)
