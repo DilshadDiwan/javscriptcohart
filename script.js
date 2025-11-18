@@ -13,7 +13,18 @@
 
 //Q-3
 
-function hi(name="guest"){
-    console.log(`hi ${name}`)
+// function hi(name="guest"){
+//     console.log(`hi ${name}`)
+// }
+// hi()
+
+//Q-4
+
+function addunlimited(...val){
+    let sum = 0;
+ val.forEach(function(val){
+    sum = sum+val;
+});
+  console.log(sum)
 }
-hi()
+addunlimited(5,6,11,20)
