@@ -121,8 +121,18 @@
 //Q-13
 
 
-let arr = [5,6,8,3,11]
- let newarr = arr.map(function(val){
-    return val*val
- });
- console.log(newarr)
+// let arr = [5,6,8,3,11]
+//  let newarr = arr.map(function(val){
+//     return val*val
+//  });
+//  console.log(newarr)
+
+
+//Q-14
+
+let arr = [5,10,14,16,17]
+
+ let newarr = arr.filter(function(val){
+    return val%2 === 0
+});
+console.log(newarr)
