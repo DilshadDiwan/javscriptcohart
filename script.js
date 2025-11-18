@@ -72,6 +72,13 @@
 
 //Q-7
 
-    let arr = ["apple","banana","mango","grapes"];
-    arr.push("kela");
-    arr.unshift("orange");
+    // let arr = ["apple","banana","mango","grapes"];
+    // arr.push("kela");
+    // arr.unshift("orange");
+
+//Q-8
+
+ let arr = ["apple","banana","mango","grapes"];
+ for(let i = 0 ; i<arr.length; i++){
+    console.log(arr[i])
+ }
