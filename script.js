@@ -102,9 +102,18 @@
 
 //Q-11
 
-function runtwice(hi){
-   hi();
+// function runtwice(hi){
+//    hi();
+// }
+// runtwice(function(){
+//     console.log("hello world")
+// });
+
+//Q-12
+ 
+ 
+function diwan({name,age}){
+    console.log(name,age);
+
 }
-runtwice(function(){
-    console.log("hello world")
-})
+diwan({name : "dilshad", age:27})
