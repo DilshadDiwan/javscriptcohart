@@ -100,3 +100,11 @@
 //     console.log("times up")
 // },5000)
 
+//Q-11
+
+function runtwice(hi){
+   hi();
+}
+runtwice(function(){
+    console.log("hello world")
+})
