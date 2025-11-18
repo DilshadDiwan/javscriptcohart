@@ -44,11 +44,17 @@
 
 //Q-4 again
 
-function add(...val){
-     let ans = val.reduce(function(acc,val){
-        return acc+val;
-    } ,0);
-    console.log(ans)
-}
-add(5,6)
+// function add(...val){
+//      let ans = val.reduce(function(acc,val){
+//         return acc+val;
+//     } ,0);
+//     console.log(ans)
+// }
+// add(5,6)
 
+//Q-5
+
+
+(function run(){
+    console.log("i run instently")
+}) ();
