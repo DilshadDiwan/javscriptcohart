@@ -139,9 +139,19 @@
 
 //Q-15
 
-let arr = [1000,2000,3000]
+// let arr = [1000,2000,3000]
 
-let newarr = arr.reduce(function(acc,val){
-    return acc+val;
-},0);
-console.log(newarr)
+// let newarr = arr.reduce(function(acc,val){
+//     return acc+val;
+// },0);
+// console.log(newarr)
+
+
+//Q-16
+
+let names = ["dilshad","chotu","manjar","sa","sal"]
+
+let newnames = names.every(function(val){
+        return val.length<3
+});
+console.log(newnames)
