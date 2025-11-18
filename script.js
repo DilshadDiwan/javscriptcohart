@@ -130,9 +130,18 @@
 
 //Q-14
 
-let arr = [5,10,14,16,17]
+// let arr = [5,10,14,16,17]
 
- let newarr = arr.filter(function(val){
-    return val%2 === 0
-});
+//  let newarr = arr.filter(function(val){
+//     return val%2 === 0
+// });
+// console.log(newarr)
+
+//Q-15
+
+let arr = [1000,2000,3000]
+
+let newarr = arr.reduce(function(acc,val){
+    return acc+val;
+},0);
 console.log(newarr)
