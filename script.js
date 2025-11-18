@@ -55,6 +55,17 @@
 //Q-5
 
 
-(function run(){
-    console.log("i run instently")
-}) ();
+// (function run(){
+//     console.log("i run instently")
+// }) ();
+
+//Q-6
+
+function print(){
+      let name = "hello"
+      function printName(){
+        console.log(name)
+      }
+      printName();
+}
+print();
