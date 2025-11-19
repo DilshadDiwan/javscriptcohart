@@ -149,9 +149,13 @@
 
 //Q-16
 
-let names = ["dilshad","chotu","manjar","sa","sal"]
+// let names = ["dilshad","chotu","manjar","sa","sal"]
 
-let newnames = names.every(function(val){
-        return val.length<3
-});
-console.log(newnames)
+// let newnames = names.every(function(val){
+//         return val.length<3
+// });
+// console.log(newnames)
+
+//Q-17
+ 
+
